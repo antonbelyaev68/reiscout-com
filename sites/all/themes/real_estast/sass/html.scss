@@ -1,0 +1,107 @@
+@import "includes/_include";
+
+/* html.scss */
+body {
+  @include raleway;
+  font-size: 14px;
+  color: $dark-grey;
+  background: $dark;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
+}
+
+header, nav, section, article, figure, aside, footer {
+  display: block;
+}
+a {
+  color: $red;
+  @include effect;
+  &:hover, &:focus{
+    color: $dark;
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3 {
+  margin: 0 0 30px;
+  color: $dark;
+}
+h1{
+  font-size: $fontsize-36;
+}
+h2, h1#page-title{
+  font-weight: 600;
+  font-size: $fontsize-36;
+  text-transform: uppercase;
+}
+h3{
+  font-size: $fontsize-18;
+}
+h4, h5, h6{
+  color: $dark;
+  margin: 0 0 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input, button, select, textarea {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid $light-grey-3;
+  color: $dark-grey-3;
+  border-radius: 0;
+  &:focus{
+  }
+}
+input, select, textarea{
+  &:focus{
+    border-color: $dark-grey;
+  }
+}
+.form-submit{
+  @include effect;
+  background: $red;
+  color: $white;
+  border: none;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  &:hover, &:focus{
+    background: $dark;
+  }
+}
+legend{
+  a{
+    color: $dark;
+    &:hover, &:focus{
+      color: $red;
+    }
+  }
+}
+
+label {
+  font-weight: normal;
+}
+iframe{
+  max-width: 100%;
+}
+p{
+  margin-bottom: 20px;
+}
+
+/* container */
+.section{
+  .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+

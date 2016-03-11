@@ -1,0 +1,4 @@
+name = GMap3 Tools
+description = GMap Tools for API version 3
+core = 7.x
+package = Location

@@ -1,0 +1,4 @@
+name = WeebPal Tools
+description = Provide The Functions for WeebPal Themes
+package = WeebPal
+core = 7.x

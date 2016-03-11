@@ -1,0 +1,146 @@
+<?php
+
+function views_metro_theme($existing, $type, $theme, $path) {
+    return array(
+    );
+}
+
+function views_metro_views_api() {
+    return array(
+        'api' => '3',
+    );
+}
+
+function views_metro_init() {
+    //drupal_add_js(drupal_get_path('module', 'views_metro') . '/jquery.js');
+    /*
+      drupal_add_js(drupal_get_path('module', 'views_metro') . '/js/jquery.mousewheel.js');
+      drupal_add_js(drupal_get_path('module', 'views_metro') . '/js/jquery.dragscrollable.js');
+      drupal_add_js(drupal_get_path('module', 'views_metro') . '/js/jquery.isotope.js');
+      drupal_add_js(drupal_get_path('module', 'views_metro') . '/js/metro.js');
+     *
+     */
+    drupal_add_css(drupal_get_path('module', 'views_metro') . '/css/metro.css');
+    drupal_add_css(drupal_get_path('module', 'views_metro') . '/views_metro.css');
+}
+
+function views_metro_views_plugins() {
+    return array(
+        'style' => array(
+            'metro' => array(
+                'title' => t('Metro'),
+                'help' => t('Display the results as Metro UI.'),
+                'handler' => 'views_metro_plugin_style_metro',
+                'uses options' => TRUE,
+                'uses row plugin' => TRUE,
+                'uses grouping' => FALSE,
+                'uses row class' => TRUE,
+                'type' => 'normal',
+                'parent' => 'list',
+                'path' => drupal_get_path('module', 'views_metro'),
+                'theme' => 'views_metro',
+                'theme path' => drupal_get_path('module', 'views_metro') . '/theme',
+                'theme file' => 'views_metro.theme.inc',
+            ),
+        ),
+    );
+}
+
+function views_metro_views_default_views() {
+    $view = new view();
+    $view->name = 'win_8';
+    $view->description = '';
+    $view->tag = 'default';
+    $view->base_table = 'node';
+    $view->human_name = 'Win 8';
+    $view->core = 7;
+    $view->api_version = '3.0';
+    $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+    /* Display: Master */
+    $handler = $view->new_display('default', 'Master', 'default');
+    $handler->display->display_options['use_more_always'] = FALSE;
+    $handler->display->display_options['access']['type'] = 'perm';
+    $handler->display->display_options['cache']['type'] = 'none';
+    $handler->display->display_options['query']['type'] = 'views_query';
+    $handler->display->display_options['exposed_form']['type'] = 'basic';
+    $handler->display->display_options['pager']['type'] = 'some';
+    $handler->display->display_options['pager']['options']['items_per_page'] = '9';
+    $handler->display->display_options['pager']['options']['offset'] = '0';
+    $handler->display->display_options['style_plugin'] = 'metro';
+    $handler->display->display_options['style_options']['menu'] = 'main-menu';
+    $handler->display->display_options['row_plugin'] = 'fields';
+    /* Field: Content: Image */
+    $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
+    $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
+    $handler->display->display_options['fields']['field_image']['field'] = 'field_image';
+    $handler->display->display_options['fields']['field_image']['label'] = '';
+    $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
+    $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
+    $handler->display->display_options['fields']['field_image']['settings'] = array(
+        'image_style' => 'win_8_style',
+        'image_link' => 'content',
+    );
+    /* Field: Global: Fieldset */
+    $handler->display->display_options['fields']['fieldset']['id'] = 'fieldset';
+    $handler->display->display_options['fields']['fieldset']['table'] = 'views';
+    $handler->display->display_options['fields']['fieldset']['field'] = 'fieldset';
+    $handler->display->display_options['fields']['fieldset']['children'] = array(
+        0 => 'title',
+        1 => 'body',
+        2 => 'changed',
+    );
+    $handler->display->display_options['fields']['fieldset']['fieldset']['type'] = 'div';
+    $handler->display->display_options['fields']['fieldset']['fieldset']['classes'] = 'field-group-wrapper';
+    /* Field: Content: Title */
+    $handler->display->display_options['fields']['title']['id'] = 'title';
+    $handler->display->display_options['fields']['title']['table'] = 'node';
+    $handler->display->display_options['fields']['title']['field'] = 'title';
+    $handler->display->display_options['fields']['title']['label'] = '';
+    $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+    $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+    /* Field: Content: Body */
+    $handler->display->display_options['fields']['body']['id'] = 'body';
+    $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
+    $handler->display->display_options['fields']['body']['field'] = 'body';
+    $handler->display->display_options['fields']['body']['label'] = '';
+    $handler->display->display_options['fields']['body']['alter']['max_length'] = '50';
+    $handler->display->display_options['fields']['body']['alter']['trim'] = TRUE;
+    $handler->display->display_options['fields']['body']['alter']['html'] = TRUE;
+    $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+    $handler->display->display_options['fields']['body']['type'] = 'text_summary_or_trimmed';
+    $handler->display->display_options['fields']['body']['settings'] = array(
+        'trim_length' => '50',
+    );
+    /* Field: Content: Updated date */
+    $handler->display->display_options['fields']['changed']['id'] = 'changed';
+    $handler->display->display_options['fields']['changed']['table'] = 'node';
+    $handler->display->display_options['fields']['changed']['field'] = 'changed';
+    $handler->display->display_options['fields']['changed']['label'] = '';
+    $handler->display->display_options['fields']['changed']['element_label_colon'] = FALSE;
+    $handler->display->display_options['fields']['changed']['date_format'] = 'custom';
+    $handler->display->display_options['fields']['changed']['custom_date_format'] = 'F d, Y';
+    /* Sort criterion: Content: Post date */
+    $handler->display->display_options['sorts']['created']['id'] = 'created';
+    $handler->display->display_options['sorts']['created']['table'] = 'node';
+    $handler->display->display_options['sorts']['created']['field'] = 'created';
+    $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+    /* Filter criterion: Content: Published */
+    $handler->display->display_options['filters']['status']['id'] = 'status';
+    $handler->display->display_options['filters']['status']['table'] = 'node';
+    $handler->display->display_options['filters']['status']['field'] = 'status';
+    $handler->display->display_options['filters']['status']['value'] = 1;
+    $handler->display->display_options['filters']['status']['group'] = 1;
+    $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+    /* Filter criterion: Content: Image (field_image:fid) */
+    $handler->display->display_options['filters']['field_image_fid']['id'] = 'field_image_fid';
+    $handler->display->display_options['filters']['field_image_fid']['table'] = 'field_data_field_image';
+    $handler->display->display_options['filters']['field_image_fid']['field'] = 'field_image_fid';
+    $handler->display->display_options['filters']['field_image_fid']['operator'] = 'not empty';
+
+    /* Display: Page */
+    $handler = $view->new_display('page', 'Page', 'page');
+    $handler->display->display_options['path'] = 'win-8';
+    $views[$view->name] = $view;
+    return $views;
+}

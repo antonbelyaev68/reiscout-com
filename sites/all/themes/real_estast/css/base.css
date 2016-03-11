@@ -1,0 +1,70 @@
+/* COLORS */
+/* font size */
+/* font */
+/* effect */
+/* button */
+/* line 3, ../sass/base.scss */
+.views-view-grid .views-col {
+  float: left;
+}
+
+/* line 6, ../sass/base.scss */
+.views-view-grid.cols-1 .views-col {
+  width: 100%;
+}
+
+/* line 9, ../sass/base.scss */
+.views-view-grid.cols-2 .views-col {
+  width: 50%;
+}
+
+/* line 12, ../sass/base.scss */
+.views-view-grid.cols-3 .views-col {
+  width: 33.33%;
+}
+
+/* line 15, ../sass/base.scss */
+.views-view-grid.cols-4 .views-col {
+  width: 25%;
+}
+
+/* line 18, ../sass/base.scss */
+.views-view-grid.cols-5 .views-col {
+  width: 20%;
+}
+
+/* maintenance page */
+/* line 23, ../sass/base.scss */
+.maintenance-page {
+  background: #e6e6e6;
+}
+
+/* line 26, ../sass/base.scss */
+.maintenance-page #page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+  text-align: center;
+}
+
+/* line 32, ../sass/base.scss */
+.maintenance-page #header {
+  overflow: hidden;
+}
+
+/* line 35, ../sass/base.scss */
+.maintenance-page #logo {
+  float: none;
+  margin: 0 0 10px;
+  width: 100% !important;
+}
+
+/* line 40, ../sass/base.scss */
+.maintenance-page #name-and-slogan {
+  float: none;
+}
+
+/* line 43, ../sass/base.scss */
+.maintenance-page #container {
+  padding: 40px 0 0 0;
+}

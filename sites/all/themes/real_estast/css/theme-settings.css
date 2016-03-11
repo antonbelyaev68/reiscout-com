@@ -1,0 +1,11 @@
+/* admin */
+#system-theme-settings #edit-gwf .form-text{
+	padding: 7px;
+	min-width: 325px;
+}
+#system-theme-settings #edit-gwf .form-select{
+	padding: 7px;
+	min-width: 340px;
+	height:32px;
+}
+#system-theme-settings #edit-gwf  label{ margin-bottom: 5px; }

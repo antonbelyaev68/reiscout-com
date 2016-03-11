@@ -1,0 +1,289 @@
+@import "includes/_include";
+/* menu */
+#main-menu-inner{
+	padding: 0;
+	float: right;
+	.menu{
+		padding-left: 0;
+		margin-bottom: 0;
+		> li{
+			padding: 0;
+			margin-left: 0;
+			display: block;
+			float: left;
+			position: relative;
+			list-style-image: none;
+			list-style-type: none;
+			> a{
+				display: block;
+				padding: 30px 15px;
+				line-height: 21px;
+				text-transform: uppercase;
+				font-size: $fontsize-13;
+				color: $dark;
+				&:hover, &:focus{
+					color: $red;
+				}
+
+			}
+			.active{
+				color: $red;
+			}
+			&:first-child{
+				border-left: none;
+				> a{
+
+				}
+			}
+			&:hover, &:focus{
+				> a {
+					color: $red;
+					&:before{
+						color: $white;
+					}
+				}
+				ul.menu{
+					display: block;
+				}
+			}
+		}
+		/*.expanded{
+			> a {
+				padding-right: 30px;
+				&:before{
+					@include fontawesome;
+					content: "\f107";
+					position: absolute;
+					right: 11px;
+					top: 50%;
+					margin-top: -5px;
+					color: $dark;
+					line-height: 10px;
+					width: 10px;
+					height: 10px;
+				}
+			}
+		}
+		*/
+		ul.menu{
+			position: absolute;
+			z-index: 999;
+			width: 220px;
+			left: 0;
+			top: 80px;
+			background-color: $mostly_black;
+			display: none;
+			li{
+				float: none;
+				position: relative;
+				margin-left: 0;
+				a{
+					background: none;
+					text-transform: none;
+					padding: 10px 15px;
+					color: $white;
+					&:hover, &:focus{
+						color: $white;
+						background: $red;
+					}
+				}
+				&:hover, &:focus{
+					> a {
+						color: $white;
+						background: $red;
+						&:before{
+							color: $white;
+						}
+					}
+					ul.menu{
+						display: block;
+					}
+				}
+			}
+			/*.expanded{
+				> a {
+					&:before{
+						content: "\f105";
+						color: $white;
+						right: 15px;
+					}
+				}
+			}
+			*/
+			ul.menu{
+				left: 201px;
+				top: 10px;
+				display: none;
+			}
+		}
+	}
+}
+
+
+
+/* tb mega menu */
+.tb-megamenu{
+  background: none;
+  /*nav */
+  .nav {
+    > li{
+      > a {
+        display: block;
+        line-height: 21px;
+        padding: 30px 15px;
+        text-transform: uppercase;
+        color: $dark;
+        border-right: none;
+        font-weight: normal;
+        position: relative;
+        font-size: $fontsize-13;
+        &:hover, &:focus{
+          background: none;
+          color: $red;
+        }
+        > .caret{
+          &:before{
+            position: absolute;
+            top: 20px;
+            right: 0;
+          }
+        }
+      }
+    }
+    > .active{
+      > a {
+        background: none;
+        color: $red;
+        &:hover, &:focus{
+          background: none;
+          color: $red;
+        }
+      }
+    }
+    li.dropdown.open{
+      > .dropdown-toggle{
+        background: none;
+        color: $red;
+      }
+    }
+    > li.dropdown{
+      > .dropdown-toggle{
+       // padding-right: 30px;
+        .caret{
+          border: none;
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          right: 11px;
+          top: 11px;
+          margin: 0;
+          &:before{
+            @include fontawesome;
+            content: "\f107";
+            color: $dark;
+          }
+        }
+      }
+    }
+    li.dropdown.active, li.dropdown.open.active{
+      > .dropdown-toggle{
+        background: none;
+        color: $red;
+      }
+      > a {
+        &:hover, &:focus{
+          background: none;
+          color: $red;
+        }
+      }
+    }
+
+  }
+  /* end nav */
+  /* dropdown menu */
+  .dropdown-menu{
+    border: none;
+    background: $mostly_black;
+    color: $white;
+
+    li{
+      > a {
+        border-top: none;
+        color: $white;
+        padding: 10px 15px !important;
+        font-size: $fontsize-13;
+        &:hover, &:focus{
+          background-color: $red;
+          color: $white;
+        }
+      }
+    }
+    .active{
+      > a{
+        color: $white;
+        background: none;
+        &:hover, &:focus{
+          color: $white;
+          background: none;
+        }
+      }
+    }
+    .mega-inner{
+      padding: 0 !important;
+    }
+    .block-inner{
+      padding: 15px 10px;
+      h2{
+        font-size: $fontsize-16;
+        margin-bottom: 10px;
+      }
+      a{
+        color: $white;
+        display: inline-block;
+        padding: 0;
+        &:hover, &:focus{
+          color: $red;
+        }
+      }
+    }
+  }
+
+  /* end dropdown menu */
+  .dropdown-submenu{
+    &:hover,&:focus{
+      > a{
+        color: $white;
+        background-color: $red;
+      }
+      > a.dropdown-toggle{
+        &:before{
+          color: $white;
+        }
+      }
+    }
+    > a.dropdown-toggle{
+      padding-right: 15px !important;
+      &:after{
+        display: none;
+      }
+      &:before{
+        @include fontawesome;
+        content: "\f105";
+        color: $white;
+        position: absolute;
+        right: 5px;
+        top: 10px;
+      }
+    }
+    .dropdown-menu{
+      margin-top: 0;
+      margin-left: 0;
+    }
+  }
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $dark-grey-3;
+  background: none;
+}

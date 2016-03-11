@@ -1,0 +1,227 @@
+/* COLORS */
+/* font size */
+/* font */
+/* effect */
+/* button */
+/*tablet*/
+/* line 4, ../../sass/screens/tablet.scss */
+h2, h1#page-title {
+  font-size: 2.14em;
+}
+
+/* slide show */
+/* line 10, ../../sass/screens/tablet.scss */
+.slideshow .fieldset-inner {
+  max-width: 930px;
+}
+
+/* line 15, ../../sass/screens/tablet.scss */
+.views-metro-item {
+  height: 137px;
+}
+/* line 17, ../../sass/screens/tablet.scss */
+.views-metro-item:first-child {
+  height: 310px;
+}
+/* line 21, ../../sass/screens/tablet.scss */
+.views-metro-item .views-field-field-image img {
+  height: auto;
+}
+/* line 25, ../../sass/screens/tablet.scss */
+.views-metro-item .fieldset {
+  padding: 10px 15px;
+}
+/* line 28, ../../sass/screens/tablet.scss */
+.views-metro-item .views-field-title {
+  font-size: 0.857em;
+}
+
+/*isotope*/
+/* line 34, ../../sass/screens/tablet.scss */
+.isotope-element {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+/*.featured-properties*/
+/* line 42, ../../sass/screens/tablet.scss */
+.featured-properties .jcarousel-item {
+  width: 220px;
+  margin-right: 20px;
+}
+
+/* line 49, ../../sass/screens/tablet.scss */
+.jcarousel-container .jcarousel-prev {
+  right: 43px;
+}
+/* line 53, ../../sass/screens/tablet.scss */
+.jcarousel-container .jcarousel-prev,
+.jcarousel-container .jcarousel-next {
+  width: 35px;
+  height: 35px;
+  top: -60px;
+}
+/* line 57, ../../sass/screens/tablet.scss */
+.jcarousel-container .jcarousel-prev:before,
+.jcarousel-container .jcarousel-next:before {
+  left: 9px;
+  line-height: 1.2em;
+}
+
+/*properties-grid-page*/
+/* line 67, ../../sass/screens/tablet.scss */
+#content .views-view-grid .grid-inner,
+.properties-grid-page .grid-inner {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 78, ../../sass/screens/tablet.scss */
+.isotope-element .property-image-group .property-price-group .views-field-field-price,
+.isotope-element .property-image-group .property-price-group .views-field-field-property-status .field-content,
+.properties-grid-page .property-image-group .property-price-group .views-field-field-price,
+.properties-grid-page .property-image-group .property-price-group .views-field-field-property-status .field-content {
+  padding: 8px 15px;
+}
+/* line 84, ../../sass/screens/tablet.scss */
+.isotope-element .property-info-group .views-field,
+.properties-grid-page .property-info-group .views-field {
+  margin-right: 4px;
+}
+/* line 88, ../../sass/screens/tablet.scss */
+.isotope-element .property-info-group .views-field-field-bedrooms,
+.isotope-element .property-info-group .views-field-field-bathrooms,
+.properties-grid-page .property-info-group .views-field-field-bedrooms,
+.properties-grid-page .property-info-group .views-field-field-bathrooms {
+  margin-left: 10px;
+  padding-left: 22px;
+}
+
+/*content property*/
+/* line 96, ../../sass/screens/tablet.scss */
+.gallery-slides {
+  height: 465px !important;
+}
+
+/* line 102, ../../sass/screens/tablet.scss */
+#main #content .node .group-price {
+  top: 425px;
+}
+
+/*agent page*/
+/* line 113, ../../sass/screens/tablet.scss */
+#panel-second .agent-type .views-field-picture,
+#panel-second .profile .views-field-picture {
+  width: 200px;
+}
+/* line 116, ../../sass/screens/tablet.scss */
+#panel-second .agent-type .agent-detail,
+#panel-second .profile .agent-detail {
+  font-size: 0.928em;
+}
+
+/* line 124, ../../sass/screens/tablet.scss */
+.sidebar {
+  /*testimonials*/
+}
+/* line 127, ../../sass/screens/tablet.scss */
+.sidebar .agent-type .views-field-picture,
+.sidebar .profile .views-field-picture {
+  width: 172px;
+}
+/* line 130, ../../sass/screens/tablet.scss */
+.sidebar .agent-type .agent-detail,
+.sidebar .profile .agent-detail {
+  font-size: 0.857em;
+}
+/* line 138, ../../sass/screens/tablet.scss */
+.sidebar .quicktabs-wrapper .item-list .quicktabs-tabs li a {
+  padding: 10px;
+}
+/* line 150, ../../sass/screens/tablet.scss */
+.sidebar .testimonials .flexslider .flex-direction-nav .flex-next {
+  right: 0;
+}
+/* line 153, ../../sass/screens/tablet.scss */
+.sidebar .testimonials .flexslider .flex-direction-nav .flex-prev {
+  left: 0;
+}
+
+/*related properties*/
+/* line 166, ../../sass/screens/tablet.scss */
+.related-properties .jcarousel-skin-default .jcarousel-item-horizontal,
+.related-properties .jcarousel-container-horizontal .jcarousel-item-horizontal {
+  width: 219px;
+  margin-right: 20px;
+  height: 420px;
+}
+/* line 170, ../../sass/screens/tablet.scss */
+.related-properties .jcarousel-skin-default .jcarousel-item-horizontal .views-field-title,
+.related-properties .jcarousel-container-horizontal .jcarousel-item-horizontal .views-field-title {
+  font-size: 1.142em;
+}
+/* line 176, ../../sass/screens/tablet.scss */
+.related-properties .jcarousel-skin-default .jcarousel-prev:before,
+.related-properties .jcarousel-skin-default .jcarousel-next:before,
+.related-properties .jcarousel-container-horizontal .jcarousel-prev:before,
+.related-properties .jcarousel-container-horizontal .jcarousel-next:before {
+  left: 12px;
+}
+/* line 183, ../../sass/screens/tablet.scss */
+.related-properties .property-info-group .views-field-field-bathrooms,
+.related-properties .property-info-group .views-field-field-bedrooms {
+  margin-left: 4px;
+}
+
+/* line 191, ../../sass/screens/tablet.scss */
+.testimonials .flex-direction-nav .flex-next {
+  right: 40px;
+}
+/* line 194, ../../sass/screens/tablet.scss */
+.testimonials .flex-direction-nav .flex-prev {
+  left: 40px;
+}
+
+/* line 201, ../../sass/screens/tablet.scss */
+.properties-grid-page .property-address-group {
+  min-height: 70px;
+}
+
+/* line 210, ../../sass/screens/tablet.scss */
+#content .node .flexslider .flex-viewport li {
+  width: 152px !important;
+}
+
+/* line 221, ../../sass/screens/tablet.scss */
+.properties-grid-page .views-view-grid .views-row,
+#content .views-view-grid .views-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/* line 231, ../../sass/screens/tablet.scss */
+.featured-properties-2 .jcarousel-container .jcarousel-item {
+  width: 455px !important;
+}
+/* line 233, ../../sass/screens/tablet.scss */
+.featured-properties-2 .jcarousel-container .jcarousel-item .property-image-group {
+  width: 200px;
+  margin: 0 20px 20px 0;
+}
+/* line 239, ../../sass/screens/tablet.scss */
+.featured-properties-2 .property-info-group {
+  padding-top: 10px;
+  margin-top: 0;
+  clear: left;
+}
+
+/*testimonials*/
+/* line 249, ../../sass/screens/tablet.scss */
+.testimonials .flex-direction-nav .flex-prev {
+  left: 20px;
+}
+/* line 252, ../../sass/screens/tablet.scss */
+.testimonials .flex-direction-nav .flex-next {
+  right: 20px;
+}

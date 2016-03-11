@@ -1,0 +1,452 @@
+@import "../../includes/_include.scss";
+
+/*color blue*/
+a{
+  color: $blue;
+}
+/*back to top*/
+.btn-btt{
+    &:hover, &:focus{
+      background-color: $blue;
+}
+}
+
+.form-submit{
+  background-color: $blue;
+}
+
+/*logo*/
+#logo{
+  background-color: $blue;
+}
+
+/*headline*/
+.headline{
+  ul.menu{
+    li{
+      a{
+        &:hover, &:focus{
+          color: $blue;
+        }
+      }
+    }
+  }
+}
+
+/*menu*/
+#main-menu-inner{
+  ul{
+    li.active{
+      a{
+        color: $blue;
+      }
+    }
+    li.dropdown.open{
+      .dropdown-toggle{
+        color: $blue;
+      }
+    }
+    li{
+      a{
+        &:hover, &:focus{
+          color: $blue;
+        }
+      }
+      ul.tb-megamenu-subnav{
+        li{
+          a{
+            color: $white;
+            &:hover, &:focus{
+              color: $white;
+              background-color: $blue;
+            }
+          }
+        }
+        li.active{
+          a{
+            background-color: $blue;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*slideshow*/
+.slideshow{
+  .views-field-field-price{
+    background-color: $blue;
+  }
+  .views-field-title{
+    a{
+      &:hover, &:focus{
+        color: $blue;
+      }
+    }
+  }
+  .views-slideshow-controls-bottom{
+    span{
+      &:hover, &:focus{
+        background-color: $blue;
+      }
+    }
+  }
+  .flex-direction-nav{
+    a{
+      &:hover, &:focus{
+        background-color: $blue;
+      }
+    }
+  }
+}
+
+/*exposed form*/
+.views-exposed-form{
+  .form-submit{
+    background-color: $blue;
+  }
+}
+
+/*properties*/
+.properties-grid-page,
+.isotope-element,
+#content .views-view-grid{
+  .grid-inner{
+    .views-field-title{
+      a{
+        &:hover, &:focus{
+          color: $blue;
+        }
+      }
+    }
+  }
+  .views-field-field-business-type{
+    .field-content{
+      a{
+        &:hover, &:focus{
+          color: $blue !important;
+        }
+      }
+    }
+  }
+}
+
+.properties-grid-page,
+.properties-list-page,
+.isotope-element{
+  .property-image-group{
+    .property-price-group{
+      .views-field-field-price{
+        background-color: $blue;
+      }
+    }
+  }
+  .views-field-title{
+    a{
+      &:hover, &:focus{
+        color: $blue !important;
+      }
+    }
+  }
+}
+
+.properties-list-page{
+  .views-field-field-business-type{
+    .views-label,
+    .field-content{
+      &:hover, &:focus{
+        color: $blue !important;
+      }
+    }
+  }
+}
+
+/*agent*/
+.agent-type,
+.profile{
+  .views-field-field-full-name,
+  .field-name-field-full-name{
+    a{
+      &:hover, &:focus{
+        color: $blue;
+      }
+    }
+  }
+}
+
+/*testimonial*/
+.testimonials{
+  .views-field-field-occupation{
+    a{
+      &:hover, &:focus{
+        color: $blue;
+      }
+    }
+  }
+}
+
+/*panel footer*/
+#panel-footer{
+  a{
+    &:hover, &:focus{
+      color: $blue;
+    }
+  }
+}
+
+/*content*/
+#main{
+  #content{
+    .submitted,
+    .comment-links{
+      a{
+        &:hover, &:focus{
+          color: $blue;
+        }
+      }
+    }
+    .node{
+      .group-price{
+        .field-name-field-price{
+          background-color: $blue;
+        }
+      }
+      h2{
+        a{
+          &:hover, &:focus{
+            color: $blue;
+          }
+        }
+      }
+
+    }
+    .created-date{
+      background-color: $blue;
+    }
+  }
+}
+
+/*sidebar*/
+.sidebar{
+  .views-row{
+    .views-field-title{
+      a{
+        &:hover, &:focus{
+          color: $blue;
+        }
+      }
+    }
+  }
+  #search-block-form{
+    .form-actions{
+      &:hover{
+        &:before{
+          color: $blue;
+        }
+      }
+    }
+  }
+  .item-list{
+    ul{
+      li{
+        a{
+          &:hover, &:focus{
+            color: $blue;
+          }
+        }
+      }
+    }
+  }
+  .quicktabs-wrapper{
+    .item-list{
+      .quicktabs-tabs{
+        li{
+          a{
+            &:hover{
+              color: $blue;
+            }
+          }
+        }
+        .active{
+          a{
+            background-color: $blue;
+            &:before{
+              border-color: $blue transparent transparent transparent;
+            }
+            &:hover, &:focus{
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*page contact*/
+.contact-content{
+  a{
+    &:hover, &:focus{
+      color: $blue;
+    }
+  }
+}
+
+div.modal-forms-modal-content{
+  .modal-header{
+    background: $blue;
+  }
+  .close{
+    background: rgba($blue, 0.9);
+  }
+  form{
+    .item-list{
+      li{
+        a{
+          &:hover, &:focus{
+            color: $blue;
+          }
+        }
+      }
+    }
+    .form-submit{
+      &:hover, &:focus{
+        background-color: $blue;
+      }
+    }
+  }
+}
+
+/*.breadcrumb*/
+.breadcrumb{
+  a{
+    &:hover, &:focus{
+      color: $blue;
+    }
+  }
+}
+
+.logged-in{
+  #subscribe{
+    .form-submit{
+      &:hover, &:focus{
+        color: $blue;
+      }
+    }
+  }
+}
+
+.comment{
+  h3{
+    a{
+      &:hover, &:focus{
+        color: $blue;
+      }
+    }
+  }
+}
+
+.offer-list{
+  .views-field-title{
+    a{
+      color: $blue !important;
+    }
+  }
+  .grid-inner{
+    &:hover, &:focus{
+      background-color: $blue !important;
+    }
+  }
+}
+
+.our-team-list{
+  .views-field{
+    a{
+      &:hover, &:focus{
+        color: $blue !important;
+      }
+    }
+  }
+}
+
+.contact-info {
+  a {
+    color: $blue !important;
+  }
+}
+
+/* blog page */
+.view-page-list{
+  .views-field-title{
+    a{
+      &:hover, &:focus{
+        color: $blue;
+      }
+    }
+  }
+}
+
+/* search result */
+.search-results{
+  h3{
+    a{
+      &:hover, &:focus{
+        color: $blue;
+      }
+    }
+  }
+}
+
+/* comment */
+.comment{
+  ul.inline,
+  ul.links.inline{
+    .comment_forbidden{
+      a{
+        &:hover, &:focus{
+          color: $blue;
+        }
+      }
+    }
+  }
+}
+
+/* search */
+legend{
+    a{
+      &:hover, &:focus{
+        color: $blue;
+      }
+    }
+}
+
+.isotope-element{
+  a{
+    &:hover, &:focus{
+      color: $blue !important;
+    }
+  }
+}
+
+.panel-highlighted{
+  .offer-list{
+    .views-field-field-icon{
+      color: $blue;
+    }
+  }
+}
+
+.news-item{
+  .created-date{
+    background: $blue;
+  }
+}
+
+.weebpal-404-wrapper{
+  .weebpal-return-back{
+    &:hover, &:focus{
+      background-color: $blue;
+    }
+  }
+}

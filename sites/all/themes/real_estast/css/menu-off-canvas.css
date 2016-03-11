@@ -1,0 +1,85 @@
+@media (max-width: 991px) {
+    #header .navbar-toggle {
+      display: block;
+    }
+    #main-menu-inner.collapse {
+      display: none !important;
+    }
+    #main-menu-inner.collapsing {
+      display: block;
+    }
+    #main-menu-inner.collapse.in {
+      display: block!important;
+    }
+    #main-menu-inner {
+      height: 100%;
+      overflow-y: hidden;
+    }
+    #main-menu-inner .tb-megamenu ul, 
+    #main-menu-inner .tb-megamenu li {
+      display: block;
+    }
+	.tb-megamenu .hidden-collapse{
+		display: none !important; }
+		.tb-megamenu .row-fluid, .tb-megamenu .mega-dropdown-menu, .tb-megamenu .row-fluid [class*="span"] {
+		  width: 100% !important;
+		}
+}
+
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  
+}
+
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 991px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .left-menu-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .left-menu-offcanvas {
+    left: -70%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 180px; /* 6 columns */
+  }
+  .row-offcanvas-left.active .left-menu-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .left-menu-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}

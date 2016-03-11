@@ -1,0 +1,186 @@
+@font-face {
+	font-family: 'linecons';
+	src:url('fonts/linecons.eot');
+	src:url('fonts/linecons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/linecons.woff') format('woff'),
+		url('fonts/linecons.ttf') format('truetype'),
+		url('fonts/linecons.svg#linecons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'linecons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-heart, .icon-cloud, .icon-star, .icon-tv, .icon-sound, .icon-video, .icon-trash, .icon-user, .icon-key, .icon-search, .icon-settings, .icon-camera, .icon-tag, .icon-lock, .icon-bulb, .icon-pen, .icon-diamond, .icon-display, .icon-location, .icon-eye, .icon-bubble, .icon-stack, .icon-cup, .icon-phone, .icon-news, .icon-mail, .icon-like, .icon-photo, .icon-note, .icon-clock, .icon-paperplane, .icon-params, .icon-banknote, .icon-data, .icon-music, .icon-megaphone, .icon-study, .icon-lab, .icon-food, .icon-t-shirt, .icon-fire, .icon-clip, .icon-shop, .icon-calendar, .icon-wallet, .icon-vynil, .icon-truck, .icon-world, .icon-untitled {
+	font-family: 'linecons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-heart:before {
+	content: "\e000";
+}
+.icon-cloud:before {
+	content: "\e001";
+}
+.icon-star:before {
+	content: "\e002";
+}
+.icon-tv:before {
+	content: "\e003";
+}
+.icon-sound:before {
+	content: "\e004";
+}
+.icon-video:before {
+	content: "\e005";
+}
+.icon-trash:before {
+	content: "\e006";
+}
+.icon-user:before {
+	content: "\e007";
+}
+.icon-key:before {
+	content: "\e008";
+}
+.icon-search:before {
+	content: "\e009";
+}
+.icon-settings:before {
+	content: "\e00a";
+}
+.icon-camera:before {
+	content: "\e00b";
+}
+.icon-tag:before {
+	content: "\e00c";
+}
+.icon-lock:before {
+	content: "\e00d";
+}
+.icon-bulb:before {
+	content: "\e00e";
+}
+.icon-pen:before {
+	content: "\e00f";
+}
+.icon-diamond:before {
+	content: "\e010";
+}
+.icon-display:before {
+	content: "\e011";
+}
+.icon-location:before {
+	content: "\e012";
+}
+.icon-eye:before {
+	content: "\e013";
+}
+.icon-bubble:before {
+	content: "\e014";
+}
+.icon-stack:before {
+	content: "\e015";
+}
+.icon-cup:before {
+	content: "\e016";
+}
+.icon-phone:before {
+	content: "\e017";
+}
+.icon-news:before {
+	content: "\e018";
+}
+.icon-mail:before {
+	content: "\e019";
+}
+.icon-like:before {
+	content: "\e01a";
+}
+.icon-photo:before {
+	content: "\e01b";
+}
+.icon-note:before {
+	content: "\e01c";
+}
+.icon-clock:before {
+	content: "\e01d";
+}
+.icon-paperplane:before {
+	content: "\e01e";
+}
+.icon-params:before {
+	content: "\e01f";
+}
+.icon-banknote:before {
+	content: "\e020";
+}
+.icon-data:before {
+	content: "\e021";
+}
+.icon-music:before {
+	content: "\e022";
+}
+.icon-megaphone:before {
+	content: "\e023";
+}
+.icon-study:before {
+	content: "\e024";
+}
+.icon-lab:before {
+	content: "\e025";
+}
+.icon-food:before {
+	content: "\e026";
+}
+.icon-t-shirt:before {
+	content: "\e027";
+}
+.icon-fire:before {
+	content: "\e028";
+}
+.icon-clip:before {
+	content: "\e029";
+}
+.icon-shop:before {
+	content: "\e02a";
+}
+.icon-calendar:before {
+	content: "\e02b";
+}
+.icon-wallet:before {
+	content: "\e02c";
+}
+.icon-vynil:before {
+	content: "\e02d";
+}
+.icon-truck:before {
+	content: "\e02e";
+}
+.icon-world:before {
+	content: "\e02f";
+}
+.icon-untitled:before {
+	content: "\e030";
+}

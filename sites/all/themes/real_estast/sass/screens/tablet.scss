@@ -1,0 +1,256 @@
+@import "../includes/_include";
+
+/*tablet*/
+h2, h1#page-title{
+  font-size: $fontsize-30;
+}
+
+/* slide show */
+.slideshow{
+  .fieldset-inner{
+    max-width: 930px;
+  }
+}
+
+.views-metro-item{
+  height: 137px;
+  &:first-child{
+    height: 310px;
+  }
+  .views-field-field-image{
+    img{
+      height: auto;
+    }
+  }
+  .fieldset{
+    padding: 10px 15px;
+  }
+  .views-field-title{
+    font-size: $fontsize-12;
+  }
+}
+
+/*isotope*/
+.isotope-element{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+/*.featured-properties*/
+.featured-properties{
+  .jcarousel-item{
+    width: 220px;
+    margin-right: 20px;
+  }
+}
+
+.jcarousel-container{
+  .jcarousel-prev{
+    right: 43px;
+  }
+  .jcarousel-prev,
+  .jcarousel-next{
+    width: 35px;
+    height: 35px;
+    top: -60px;
+    &:before{
+      left: 9px;
+      line-height: 1.2em;
+    }
+  }
+}
+
+/*properties-grid-page*/
+#content .views-view-grid,
+.properties-grid-page{
+  .grid-inner{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.isotope-element,
+.properties-grid-page{
+  .property-image-group{
+    .property-price-group{
+      .views-field-field-price,
+      .views-field-field-property-status .field-content{
+        padding: 8px 15px;
+      }
+    }
+  }
+  .property-info-group{
+    .views-field{
+      margin-right: 4px;
+    }
+    .views-field-field-bedrooms,
+    .views-field-field-bathrooms{
+      margin-left: 10px;
+      padding-left: 22px;
+    }
+  }
+}
+
+/*content property*/
+.gallery-slides{
+  height: 465px !important;
+}
+#main{
+  #content{
+    .node{
+      .group-price{
+        top: 425px;
+      }
+    }
+  }
+}
+
+/*agent page*/
+#panel-second{
+  .agent-type,
+  .profile{
+    .views-field-picture{
+      width: 200px;
+    }
+    .agent-detail{
+      font-size: $fontsize-13;
+    }
+  }
+}
+
+
+
+.sidebar{
+  .agent-type,
+  .profile{
+    .views-field-picture{
+      width: 172px;
+    }
+    .agent-detail{
+      font-size: $fontsize-12;
+    }
+  }
+  .quicktabs-wrapper{
+    .item-list{
+      .quicktabs-tabs{
+        li{
+          a{
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  /*testimonials*/
+  .testimonials{
+    .flexslider{
+      .flex-direction-nav{
+        .flex-next{
+          right: 0;
+        }
+        .flex-prev{
+          left: 0;
+        }
+      }
+    }
+
+  }
+}
+
+/*related properties*/
+.related-properties{
+  .jcarousel-skin-default,
+  .jcarousel-container-horizontal{
+    .jcarousel-item-horizontal{
+      width: 219px;
+      margin-right: 20px;
+      height: 420px;
+      .views-field-title{
+        font-size: $fontsize-16;
+      }
+    }
+    .jcarousel-prev,
+    .jcarousel-next{
+      &:before{
+        left: 12px;
+      }
+    }
+  }
+  .property-info-group{
+    .views-field-field-bathrooms,
+    .views-field-field-bedrooms{
+      margin-left: 4px;
+    }
+  }
+}
+
+.testimonials{
+  .flex-direction-nav{
+    .flex-next{
+      right: 40px;
+    }
+    .flex-prev{
+      left: 40px;
+    }
+  }
+}
+
+.properties-grid-page{
+  .property-address-group{
+    min-height: 70px;
+  }
+}
+
+#content {
+  .node {
+    .flexslider{
+      .flex-viewport{
+        li{
+          width: 152px !important;
+        }
+      }
+    }
+  }
+}
+
+.properties-grid-page,
+#content{
+  .views-view-grid{
+    .views-row{
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  }
+}
+
+
+  .featured-properties-2{
+    .jcarousel-container{
+      .jcarousel-item{
+        width: 455px !important;
+        .property-image-group{
+          width: 200px;
+          margin: 0 20px 20px 0;
+        }
+      }
+    }
+    .property-info-group{
+      padding-top: 10px;
+      margin-top: 0;
+      clear: left;
+    }
+  }
+
+  /*testimonials*/
+  .testimonials{
+    .flex-direction-nav{
+      .flex-prev{
+        left: 20px;
+      }
+      .flex-next{
+        right: 20px;
+      }
+    }
+  }

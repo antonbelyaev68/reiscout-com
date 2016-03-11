@@ -1,0 +1,124 @@
+name = Real Estast
+description = Theme for the Real Estate Listing
+version = VERSION
+core = 7.x
+engine = 'phptemplate'
+
+stylesheets[all][] = bootstrap/css/bootstrap.css
+stylesheets[all][] = bootstrap/css/bootstrap-theme.css
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/html.css
+stylesheets[all][] = css/page.css
+stylesheets[all][] = css/block.css
+stylesheets[all][] = css/view.css
+stylesheets[all][] = css/menu.css
+stylesheets[all][] = css/demo.css
+stylesheets[all][] = css/menu-off-canvas.css
+
+stylesheets[only screen and (min-width:992px) and (max-width:1199px)][] = 'css/screens/tablet.css'
+stylesheets[only screen and (max-width:991px)][] = 'css/screens/common.css'
+stylesheets[only screen and (min-width:768px) and (max-width:991px)][] = 'css/screens/vertical_tablet.css'
+stylesheets[only screen and (max-width:767px)][] = 'css/screens/mobile.css'
+
+
+scripts[] = 'bootstrap/js/bootstrap.js'
+scripts[] = 'js/jquery.cookie.js'
+scripts[] = 'js/jquery.smooth-scroll.js'
+scripts[] = 'js/waypoints.min.js'
+scripts[] = 'js/weebpal.js'
+scripts[] = 'js/real_estast.js'
+scripts[] = 'js/views_isotope.js'
+
+
+features[] = 'logo'
+features[] = 'name'
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+
+regions[headline] = Headline
+regions[header] = Header
+regions[slideshow] = Slideshow
+regions[main_menu] = Main Menu
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+regions[featured] = Featured
+regions[content_action] = Action for Content
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[map] = Map
+regions[panel_first] = Panel First
+regions[panel_highlighted] = Panel Highlighted
+regions[panel_second] = Panel Second
+regions[panel_third_1] = Panel Third 1
+regions[panel_third_2] = Panel Third 2
+regions[panel_third_3] = Panel Third 3
+regions[panel_footer_1] = Panel Footer 1
+regions[panel_footer_2] = Panel Footer 2
+regions[panel_footer_3] = Panel Footer 3
+regions[panel_footer_4] = Panel Footer 4
+regions[footer] = Footer
+
+settings[sidebar_first_width] = 3
+settings[sidebar_second_width] = 3
+
+settings[panel_third_1_width] = 4
+settings[panel_third_2_width] = 4
+settings[panel_third_3_width] = 4
+settings[panel_footer_1_width] = 4
+settings[panel_footer_2_width] = 2
+settings[panel_footer_3_width] = 2
+settings[panel_footer_4_width] = 4
+
+
+//Theme settings
+skins[blue] = 'Blue'
+skins[green] = 'Green'
+skins[orange] = 'Orange'
+skins[cyan] = 'Cyan'
+skins[violet] = 'Violet'
+
+
+backgrounds[bg-1] = 'Background 1'
+backgrounds[bg-2] = 'Background 2'
+backgrounds[bg-3] = 'Background 3'
+backgrounds[bg-4] = 'Background 4'
+backgrounds[bg-5] = 'Background 5'
+backgrounds[bg-6] = 'Background 6'
+backgrounds[bg-7] = 'Background 7'
+
+animations[Bouncing Entrances][bounceIn] = 'bounceIn'
+animations[Bouncing Entrances][bounceInDown] = 'bounceInDown'
+animations[Bouncing Entrances][bounceInUp] = 'bounceInUp'
+animations[Bouncing Entrances][bounceInLeft] = 'bounceInLeft'
+animations[Bouncing Entrances][bounceInRight] = 'bounceInRight'
+animations[Fading Entrances][fadeIn] = 'fadeIn'
+animations[Fading Entrances][fadeInUp] = 'fadeInUp'
+animations[Fading Entrances][fadeInUpBig] = 'fadeInUpBig'
+animations[Fading Entrances][fadeInDown] = 'fadeInDown'
+animations[Fading Entrances][fadeInDownBig] = 'fadeInDownBig'
+animations[Fading Entrances][fadeInLeft] = 'fadeInLeft'
+animations[Fading Entrances][fadeInLeftBig] = 'fadeInLeftBig'
+animations[Fading Entrances][fadeInRight] = 'fadeInRight'
+animations[Fading Entrances][fadeInRightBig] = 'fadeInRightBig'
+animations[Rotating Entrances][rotateIn] = 'rotateIn'
+animations[Rotating Entrances][rotateInDownLeft] = 'rotateInDownLeft'
+animations[Rotating Entrances][rotateInDownRight] = 'rotateInDownRight'
+animations[Rotating Entrances][rotateInUpLeft] = 'rotateInUpLeft'
+animations[Rotating Entrances][rotateInUpRight] = 'rotateInUpRight'
+animations[Specials][flipInX] = 'flipInX'
+animations[Specials][lightSpeedIn] = 'lightSpeedIn'
+animations[Specials][rollIn] = 'rollIn'
+animations[Zoom Entrances][zoomIn] = 'zoomIn'
+animations[Zoom Entrances][zoomInDown] = 'zoomInDown'
+animations[Zoom Entrances][zoomInLeft] = 'zoomInLeft'
+animations[Zoom Entrances][zoomInRight] = 'zoomInRight'
+animations[Zoom Entrances][zoomInUp] = 'zoomInUp'
+
+layout[layout-boxed] = Boxed Layout

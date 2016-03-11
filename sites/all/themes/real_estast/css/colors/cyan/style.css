@@ -1,0 +1,303 @@
+/* COLORS */
+/* font size */
+/* font */
+/* effect */
+/* button */
+/*color blue*/
+/* line 4, ../../../sass/colors/cyan/style.scss */
+a {
+  color: #4dbfd9;
+}
+
+/*back to top*/
+/* line 9, ../../../sass/colors/cyan/style.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background-color: #4dbfd9;
+}
+
+/* line 14, ../../../sass/colors/cyan/style.scss */
+.form-submit {
+  background-color: #4dbfd9;
+}
+
+/*logo*/
+/* line 19, ../../../sass/colors/cyan/style.scss */
+#logo {
+  background-color: #4dbfd9;
+}
+
+/*headline*/
+/* line 28, ../../../sass/colors/cyan/style.scss */
+.headline ul.menu li a:hover, .headline ul.menu li a:focus {
+  color: #4dbfd9;
+}
+
+/*menu*/
+/* line 40, ../../../sass/colors/cyan/style.scss */
+#main-menu-inner ul li.active a {
+  color: #4dbfd9;
+}
+/* line 45, ../../../sass/colors/cyan/style.scss */
+#main-menu-inner ul li.dropdown.open .dropdown-toggle {
+  color: #4dbfd9;
+}
+/* line 51, ../../../sass/colors/cyan/style.scss */
+#main-menu-inner ul li a:hover, #main-menu-inner ul li a:focus {
+  color: #4dbfd9;
+}
+/* line 57, ../../../sass/colors/cyan/style.scss */
+#main-menu-inner ul li ul.tb-megamenu-subnav li a {
+  color: white;
+}
+/* line 59, ../../../sass/colors/cyan/style.scss */
+#main-menu-inner ul li ul.tb-megamenu-subnav li a:hover, #main-menu-inner ul li ul.tb-megamenu-subnav li a:focus {
+  color: white;
+  background-color: #4dbfd9;
+}
+/* line 66, ../../../sass/colors/cyan/style.scss */
+#main-menu-inner ul li ul.tb-megamenu-subnav li.active a {
+  background-color: #4dbfd9;
+  color: white;
+}
+
+/*slideshow*/
+/* line 78, ../../../sass/colors/cyan/style.scss */
+.slideshow .views-field-field-price {
+  background-color: #4dbfd9;
+}
+/* line 83, ../../../sass/colors/cyan/style.scss */
+.slideshow .views-field-title a:hover, .slideshow .views-field-title a:focus {
+  color: #4dbfd9;
+}
+/* line 90, ../../../sass/colors/cyan/style.scss */
+.slideshow .views-slideshow-controls-bottom span:hover, .slideshow .views-slideshow-controls-bottom span:focus {
+  background-color: #4dbfd9;
+}
+/* line 97, ../../../sass/colors/cyan/style.scss */
+.slideshow .flex-direction-nav a:hover, .slideshow .flex-direction-nav a:focus {
+  background-color: #4dbfd9;
+}
+
+/*exposed form*/
+/* line 106, ../../../sass/colors/cyan/style.scss */
+.views-exposed-form .form-submit {
+  background-color: #4dbfd9;
+}
+
+/*properties*/
+/* line 118, ../../../sass/colors/cyan/style.scss */
+.properties-grid-page .grid-inner .views-field-title a:hover, .properties-grid-page .grid-inner .views-field-title a:focus,
+.isotope-element .grid-inner .views-field-title a:hover,
+.isotope-element .grid-inner .views-field-title a:focus,
+#content .views-view-grid .grid-inner .views-field-title a:hover,
+#content .views-view-grid .grid-inner .views-field-title a:focus {
+  color: #4dbfd9;
+}
+/* line 127, ../../../sass/colors/cyan/style.scss */
+.properties-grid-page .views-field-field-business-type .field-content a:hover, .properties-grid-page .views-field-field-business-type .field-content a:focus,
+.isotope-element .views-field-field-business-type .field-content a:hover,
+.isotope-element .views-field-field-business-type .field-content a:focus,
+#content .views-view-grid .views-field-field-business-type .field-content a:hover,
+#content .views-view-grid .views-field-field-business-type .field-content a:focus {
+  color: #4dbfd9 !important;
+}
+
+/* line 141, ../../../sass/colors/cyan/style.scss */
+.properties-grid-page .property-image-group .property-price-group .views-field-field-price,
+.properties-list-page .property-image-group .property-price-group .views-field-field-price,
+.isotope-element .property-image-group .property-price-group .views-field-field-price {
+  background-color: #4dbfd9;
+}
+/* line 148, ../../../sass/colors/cyan/style.scss */
+.properties-grid-page .views-field-title a:hover, .properties-grid-page .views-field-title a:focus,
+.properties-list-page .views-field-title a:hover,
+.properties-list-page .views-field-title a:focus,
+.isotope-element .views-field-title a:hover,
+.isotope-element .views-field-title a:focus {
+  color: #4dbfd9 !important;
+}
+
+/* line 160, ../../../sass/colors/cyan/style.scss */
+.properties-list-page .views-field-field-business-type .views-label a:hover, .properties-list-page .views-field-field-business-type .views-label a:focus,
+.properties-list-page .views-field-field-business-type .field-content a:hover,
+.properties-list-page .views-field-field-business-type .field-content a:focus {
+  color: #4dbfd9 !important;
+}
+
+/*agent*/
+/* line 175, ../../../sass/colors/cyan/style.scss */
+.agent-type .views-field-field-full-name a:hover, .agent-type .views-field-field-full-name a:focus,
+.agent-type .field-name-field-full-name a:hover,
+.agent-type .field-name-field-full-name a:focus,
+.profile .views-field-field-full-name a:hover,
+.profile .views-field-field-full-name a:focus,
+.profile .field-name-field-full-name a:hover,
+.profile .field-name-field-full-name a:focus {
+  color: #4dbfd9;
+}
+
+/*testimonial*/
+/* line 186, ../../../sass/colors/cyan/style.scss */
+.testimonials .views-field-field-occupation a:hover, .testimonials .views-field-field-occupation a:focus {
+  color: #4dbfd9;
+}
+
+/*panel footer*/
+/* line 196, ../../../sass/colors/cyan/style.scss */
+#panel-footer a:hover, #panel-footer a:focus {
+  color: #4dbfd9;
+}
+
+/*content*/
+/* line 208, ../../../sass/colors/cyan/style.scss */
+#main #content .submitted a:hover, #main #content .submitted a:focus,
+#main #content .comment-links a:hover,
+#main #content .comment-links a:focus {
+  color: #4dbfd9;
+}
+/* line 215, ../../../sass/colors/cyan/style.scss */
+#main #content .node .group-price .field-name-field-price {
+  background-color: #4dbfd9;
+}
+/* line 221, ../../../sass/colors/cyan/style.scss */
+#main #content .node h2 a:hover, #main #content .node h2 a:focus {
+  color: #4dbfd9;
+}
+/* line 228, ../../../sass/colors/cyan/style.scss */
+#main #content .created-date {
+  background-color: #4dbfd9;
+}
+
+/*sidebar*/
+/* line 239, ../../../sass/colors/cyan/style.scss */
+.sidebar .views-row .views-field-title a:hover, .sidebar .views-row .views-field-title a:focus {
+  color: #4dbfd9;
+}
+/* line 248, ../../../sass/colors/cyan/style.scss */
+.sidebar #search-block-form .form-actions:hover:before {
+  color: #4dbfd9;
+}
+/* line 258, ../../../sass/colors/cyan/style.scss */
+.sidebar .item-list ul li a:hover, .sidebar .item-list ul li a:focus {
+  color: #4dbfd9;
+}
+/* line 270, ../../../sass/colors/cyan/style.scss */
+.sidebar .quicktabs-wrapper .item-list .quicktabs-tabs li a:hover {
+  color: #4dbfd9;
+}
+/* line 276, ../../../sass/colors/cyan/style.scss */
+.sidebar .quicktabs-wrapper .item-list .quicktabs-tabs .active a {
+  background-color: #4dbfd9;
+}
+/* line 278, ../../../sass/colors/cyan/style.scss */
+.sidebar .quicktabs-wrapper .item-list .quicktabs-tabs .active a:before {
+  border-color: #4dbfd9 transparent transparent transparent;
+}
+/* line 281, ../../../sass/colors/cyan/style.scss */
+.sidebar .quicktabs-wrapper .item-list .quicktabs-tabs .active a:hover, .sidebar .quicktabs-wrapper .item-list .quicktabs-tabs .active a:focus {
+  color: white;
+}
+
+/*page contact*/
+/* line 294, ../../../sass/colors/cyan/style.scss */
+.contact-content a:hover, .contact-content a:focus {
+  color: #4dbfd9;
+}
+
+/* line 301, ../../../sass/colors/cyan/style.scss */
+div.modal-forms-modal-content .modal-header {
+  background: #4dbfd9;
+}
+/* line 304, ../../../sass/colors/cyan/style.scss */
+div.modal-forms-modal-content .close {
+  background: rgba(77, 191, 217, 0.9);
+}
+/* line 311, ../../../sass/colors/cyan/style.scss */
+div.modal-forms-modal-content form .item-list li a:hover, div.modal-forms-modal-content form .item-list li a:focus {
+  color: #4dbfd9;
+}
+/* line 318, ../../../sass/colors/cyan/style.scss */
+div.modal-forms-modal-content form .form-submit:hover, div.modal-forms-modal-content form .form-submit:focus {
+  background-color: #4dbfd9;
+}
+
+/*.breadcrumb*/
+/* line 328, ../../../sass/colors/cyan/style.scss */
+.breadcrumb a:hover, .breadcrumb a:focus {
+  color: #4dbfd9;
+}
+
+/* line 337, ../../../sass/colors/cyan/style.scss */
+.logged-in #subscribe .form-submit:hover, .logged-in #subscribe .form-submit:focus {
+  color: #4dbfd9;
+}
+
+/* line 347, ../../../sass/colors/cyan/style.scss */
+.comment h3 a:hover, .comment h3 a:focus {
+  color: #4dbfd9;
+}
+
+/* line 357, ../../../sass/colors/cyan/style.scss */
+.offer-list .views-field-title a {
+  color: #4dbfd9 !important;
+}
+/* line 362, ../../../sass/colors/cyan/style.scss */
+.offer-list .grid-inner:hover, .offer-list .grid-inner:focus {
+  background-color: #4dbfd9 !important;
+}
+
+/* line 371, ../../../sass/colors/cyan/style.scss */
+.our-team-list .views-field a:hover, .our-team-list .views-field a:focus {
+  color: #4dbfd9 !important;
+}
+
+/* line 379, ../../../sass/colors/cyan/style.scss */
+.contact-info a {
+  color: #4dbfd9 !important;
+}
+
+/* blog page */
+/* line 388, ../../../sass/colors/cyan/style.scss */
+.view-page-list .views-field-title a:hover, .view-page-list .views-field-title a:focus {
+  color: #4dbfd9;
+}
+
+/* search result */
+/* line 399, ../../../sass/colors/cyan/style.scss */
+.search-results h3 a:hover, .search-results h3 a:focus {
+  color: #4dbfd9;
+}
+
+/* comment */
+/* line 412, ../../../sass/colors/cyan/style.scss */
+.comment ul.inline .comment_forbidden a:hover, .comment ul.inline .comment_forbidden a:focus,
+.comment ul.links.inline .comment_forbidden a:hover,
+.comment ul.links.inline .comment_forbidden a:focus {
+  color: #4dbfd9;
+}
+
+/* search */
+/* line 423, ../../../sass/colors/cyan/style.scss */
+legend a:hover, legend a:focus {
+  color: #4dbfd9;
+}
+
+/* line 432, ../../../sass/colors/cyan/style.scss */
+.isotope-element a:hover, .isotope-element a:focus {
+  color: #4dbfd9 !important;
+}
+
+/* line 440, ../../../sass/colors/cyan/style.scss */
+.panel-highlighted .offer-list .views-field-field-icon {
+  color: #4dbfd9;
+}
+
+/* line 447, ../../../sass/colors/cyan/style.scss */
+.news-item .created-date {
+  background: #4dbfd9;
+}
+
+/* line 454, ../../../sass/colors/cyan/style.scss */
+.weebpal-404-wrapper .weebpal-return-back:hover, .weebpal-404-wrapper .weebpal-return-back:focus {
+  background-color: #4dbfd9;
+}

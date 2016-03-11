@@ -1,0 +1,203 @@
+/* COLORS */
+$black: #000;
+$white: #fff;
+$dark: #333;
+$dark-grey: #666;
+$dark-grey-2: #141414;
+$dark-grey-3: #999;
+$red: #d94949;
+$grey: #aaa;
+$light-grey: #f5f5f5;
+$light-grey-2: #f0f0f0;
+$light-grey-3: #ddd;
+$light-grey-4: #fafafa;
+$light-grey-5: #e5e5e5;
+$mostly_black: #111;
+$blue: #3366cc;
+$green: #8cc474;
+$orange: #f9b256;
+$cyan: #4dbfd9;
+$violet: #cb84ce;
+
+/* font size */
+$fontsize-11: 0.786em;
+$fontsize-12: 0.857em;
+$fontsize-13: 0.928em;
+$fontsize-14: 1em;
+$fontsize-16: 1.142em;
+$fontsize-18: 1.285em;
+$fontsize-20: 1.428em;
+$fontsize-24: 1.714em;
+$fontsize-30: 2.14em;
+$fontsize-36: 2.57em;
+$fontsize-48: 3.428em;
+
+
+/* font */
+@mixin raleway {
+  font-family: 'Raleway', sans-serif;
+}
+@mixin droid-sans {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+/* effect */
+@mixin effect{
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+@mixin border-radius-50 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+@mixin fontawesome {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* button */
+@mixin btn-border{
+    display: inline-block;
+    border: 2px solid $mostly_black;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: $dark;
+    position: relative;
+    z-index: 2;
+    &:after{
+      height:100%;
+      left:0;
+      top:0;
+      width:0;
+      content:"";
+      position:absolute;
+      z-index:-1;
+      -webkit-transition:all 0.3s ease-out 0s;
+      transition:all 0.3s ease-out 0s;
+    }
+    &:hover, &:focus, &:active{
+      color: $white;
+      &:after{
+        width:100%;
+        background: $mostly_black;
+      }
+    }
+}
+@mixin control{
+    display: block;
+    background: none;
+    font-size: $fontsize-24;
+    border: 2px solid $dark;
+    width: 40px;
+    height: 40px;
+    color: $dark;
+    z-index: 0;
+    &:before{
+      @include fontawesome;
+      width: 15px;
+      height: 15px;
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      left: 12px;
+    }
+    &:after{
+      height:100%;
+      left:0;
+      top:0;
+      width:0;
+      content:"";
+      position:absolute;
+      z-index:1;
+      -webkit-transition:all 0.3s ease-out 0s;
+      transition:all 0.3s ease-out 0s;
+    }
+    &:hover, &:focus, &:active{
+      color: $white;
+      &:after{
+        width:100%;
+        color: $white;
+        background: $mostly_black;
+      }
+    }
+}
+@mixin control-next{
+  right: auto;
+  left: 0;
+    &:before{
+      content: "\f105";
+    }
+}
+@mixin control-prev{
+  left: auto;
+  right: 0;
+    &:before{
+      content: "\f104";
+    }
+}
+@mixin arrow-prev{
+  &:before{
+      content: "\f104";
+    }
+  &:before, &:after{
+    text-indent: 0;
+  }
+}
+@mixin arrow-next{
+  &:before{
+      content: "\f105";
+  }
+  &:before, &:after{
+    text-indent: 0;
+  }
+}
+
+@mixin transition($time){
+  -webkit-transition: all #{$time}s ease-in;
+  -moz-transition: all #{$time}s ease-in;
+  -ms-transition: all #{$time}s ease-in;
+  -o-transition: all #{$time}s ease-in;
+  transition: all #{$time}s ease-in;
+}
+
+@mixin btn-bg{
+    display: inline-block;
+    padding: 10px 20px;
+    line-height: 20px;
+    color: $white;
+    background: $mostly_black;
+    &:hover, &:focus{
+      background: $dark;
+    }
+}
+
+@mixin sprite{
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+}
+
+@mixin frame{
+  background-color: $white;
+  padding: 30px;
+}
+@mixin zoomimg{
+  -webkit-transition: all 900ms ease-out;
+    -moz-transition: all 900ms ease-out;
+    -o-transition: all 900ms ease-out;
+    -ms-transition: all 900ms ease-out;
+    transition: all 900ms ease-out;
+}
+@mixin zoomimg-out{
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+

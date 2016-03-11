@@ -1,0 +1,107 @@
+.fly-out-cog{
+    position: fixed;
+    left: -188px;
+    top: 100px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    background: #fafafa;
+    z-index: 3000;
+    -webkit-box-shadow: 2px 0 2px -1px #999999; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+    box-shadow: 2px 0 2px -1px #999999; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+}
+.fly-out-cog.im-flying-out{
+    left: -188px;
+}
+.cog-container{
+    position: relative;
+    width: 185px;
+    padding: 10px;
+}
+.cog-container ul{
+    list-style: none
+}
+.cog-container .cog-icon{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-left: -1px;
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+    background: #fafafa;
+    text-align: center;
+    -webkit-box-shadow: 2px 0 2px -1px #999999; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+    box-shadow: 2px 0 2px -1px #999999; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+}
+.cog-container .cog-icon i{
+    font-size: 18px;
+}
+.skin-list > a.default{
+    background-color: #D94949
+}
+.skin-list > a.blue{
+    background-color: #3367CD
+}
+.skin-list > a.brown{
+    background-color: #8A745F
+}
+.skin-list > a.green{
+    background-color: #8DC375
+}
+.skin-list > a.orange{
+    background-color: #F9B256
+}
+.skin-list > a.purple{
+    background-color: #C578C8
+}
+.skin-list > a.water{
+    background-color: #4DBFD9
+}
+.skin-list > a, .bg-list > a{
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.1);
+    opacity: 0.9;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 3px;
+    text-align: center;
+    line-height: 30px;
+}
+.skin-list > a i{
+    font-size: 30px;
+}
+.skin-list > a:hover,
+.skin-list > a.active,
+.bg-list > a:hover{
+    border-bottom-color: rgba(0,0,0,0.5);
+    opacity: 1;
+}
+.bg-list > a.bg-one {
+    background-image: url("../img/pgl-bg/greyzz.png");
+}
+.bg-list > a.bg-two {
+    background-image: url("../img/pgl-bg/brickwall.png");
+}
+.bg-list > a.bg-three {
+    background-image: url("../img/pgl-bg/cream_pixels.png");
+}
+.bg-list > a.bg-four {
+    background-image: url("../img/pgl-bg/p6.png");
+}
+.bg-list > a.bg-five {
+    background-image: url("../img/pgl-bg/agsquare.png");
+}
+.bg-list > a.bg-six {
+    background-image: url("../img/pgl-bg/kindajean.png");
+}
+.bg-list > a.bg-seven {
+    background-image: url("../img/pgl-bg/pw_maze_white.png");
+}
+.bg-list > a.bg-eight {
+    background-image: url("../img/pgl-bg/pw_maze_black.png");
+}
+.bg-list > a.bg-nine {
+    background-image: url("../img/pgl-bg/bedge_grunge.png");
+}
+.bg-list > a.bg-ten {
+    background-image: url("../img/pgl-bg/shattered.png");
+}

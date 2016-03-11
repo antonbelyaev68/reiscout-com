@@ -1,0 +1,6 @@
+name = Manage Multiple Terms
+description = Manage Multiple Terms
+package = Taxonomy
+configure = admin/structure/taxonomy/terms
+core = "7.x"
+

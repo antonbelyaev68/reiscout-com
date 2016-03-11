@@ -1,0 +1,6 @@
+name = Real Estast Tools
+description = Views plugins to show Google Maps from entities.
+core = 7.x
+package = Real Estast
+
+dependencies[] = gmap

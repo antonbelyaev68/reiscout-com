@@ -1,0 +1,455 @@
+@import "../../includes/_include.scss";
+
+/*color blue*/
+a{
+  color: $orange;
+}
+/*back to top*/
+.btn-btt{
+  &:hover, &:focus{
+    background-color: $orange;
+  }
+}
+
+.form-submit{
+  background-color: $orange;
+}
+
+/*logo*/
+#logo{
+  background-color: $orange;
+}
+
+/*headline*/
+.headline{
+  ul.menu{
+    li{
+      a{
+        &:hover, &:focus{
+          color: $orange;
+        }
+      }
+    }
+  }
+}
+
+/*menu*/
+#main-menu-inner{
+  ul{
+    li.active{
+      a{
+        color: $orange;
+      }
+    }
+    li.dropdown.open{
+      .dropdown-toggle{
+        color: $orange;
+      }
+    }
+    li{
+      a{
+        &:hover, &:focus{
+          color: $orange;
+        }
+      }
+      ul.tb-megamenu-subnav{
+        li{
+          a{
+            color: $white;
+            &:hover, &:focus{
+              color: $white;
+              background-color: $orange;
+            }
+          }
+        }
+        li.active{
+          a{
+            background-color: $orange;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*slideshow*/
+.slideshow{
+  .views-field-field-price{
+    background-color: $orange;
+  }
+  .views-field-title{
+    a{
+      &:hover, &:focus{
+        color: $orange;
+      }
+    }
+  }
+  .views-slideshow-controls-bottom{
+    span{
+      &:hover, &:focus{
+        background-color: $orange;
+      }
+    }
+  }
+  .flex-direction-nav{
+    a{
+      &:hover, &:focus{
+        background-color: $orange;
+      }
+    }
+  }
+}
+
+/*exposed form*/
+.views-exposed-form{
+  .form-submit{
+    background-color: $orange;
+  }
+}
+
+/*properties*/
+.properties-grid-page,
+.isotope-element,
+#content .views-view-grid{
+  .grid-inner{
+    .views-field-title{
+      a{
+        &:hover, &:focus{
+          color: $orange;
+        }
+      }
+    }
+  }
+  .views-field-field-business-type{
+    .field-content{
+      a{
+        &:hover, &:focus{
+          color: $orange !important;
+        }
+      }
+    }
+  }
+}
+
+
+.properties-grid-page,
+.properties-list-page,
+.isotope-element{
+  .property-image-group{
+    .property-price-group{
+      .views-field-field-price{
+        background-color: $orange;
+      }
+    }
+  }
+  .views-field-title{
+    a{
+      &:hover, &:focus{
+        color: $orange !important;
+      }
+    }
+  }
+}
+
+.properties-list-page{
+  .views-field-field-business-type{
+    .views-label,
+    .field-content{
+      a{
+        &:hover, &:focus{
+          color: $orange !important;
+        }
+      }
+    }
+  }
+}
+
+/*agent*/
+.agent-type,
+.profile{
+  .views-field-field-full-name,
+  .field-name-field-full-name{
+    a{
+      &:hover, &:focus{
+        color: $orange;
+      }
+    }
+  }
+}
+
+/*testimonial*/
+.testimonials{
+  .views-field-field-occupation{
+    a{
+      &:hover, &:focus{
+        color: $orange;
+      }
+    }
+  }
+}
+
+/*panel footer*/
+#panel-footer{
+  a{
+    &:hover, &:focus{
+      color: $orange;
+    }
+  }
+}
+
+/*content*/
+#main{
+  #content{
+    .submitted,
+    .comment-links{
+      a{
+        &:hover, &:focus{
+          color: $orange;
+        }
+      }
+    }
+    .node{
+      .group-price{
+        .field-name-field-price{
+          background-color: $orange;
+        }
+      }
+      h2{
+        a{
+          &:hover, &:focus{
+            color: $orange;
+          }
+        }
+      }
+
+    }
+    .created-date{
+      background-color: $orange;
+    }
+  }
+}
+
+/*sidebar*/
+.sidebar{
+  .views-row{
+    .views-field-title{
+      a{
+        &:hover, &:focus{
+          color: $orange;
+        }
+      }
+    }
+  }
+  #search-block-form{
+    .form-actions{
+      &:hover{
+        &:before{
+          color: $orange;
+        }
+      }
+    }
+  }
+  .item-list{
+    ul{
+      li{
+        a{
+          &:hover, &:focus{
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+  .quicktabs-wrapper{
+    .item-list{
+      .quicktabs-tabs{
+        li{
+          a{
+            &:hover{
+              color: $orange;
+            }
+          }
+        }
+        .active{
+          a{
+            background-color: $orange;
+            &:before{
+              border-color: $orange transparent transparent transparent;
+            }
+            &:hover, &:focus{
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*page contact*/
+.contact-content{
+  a{
+    &:hover, &:focus{
+      color: $orange;
+    }
+  }
+}
+
+div.modal-forms-modal-content{
+  .modal-header{
+    background: $orange;
+  }
+  .close{
+    background: rgba($orange, 0.9);
+  }
+  form{
+    .item-list{
+      li{
+        a{
+          &:hover, &:focus{
+            color: $orange;
+          }
+        }
+      }
+    }
+    .form-submit{
+      &:hover, &:focus{
+        background-color: $orange;
+      }
+    }
+  }
+}
+
+/*.breadcrumb*/
+.breadcrumb{
+  a{
+    &:hover, &:focus{
+      color: $orange;
+    }
+  }
+}
+
+.logged-in{
+  #subscribe{
+    .form-submit{
+      &:hover, &:focus{
+        color: $orange;
+      }
+    }
+  }
+}
+
+.comment{
+  h3{
+    a{
+      &:hover, &:focus{
+        color: $orange;
+      }
+    }
+  }
+}
+
+.offer-list{
+  .views-field-title{
+    a{
+      color: $orange !important;
+    }
+  }
+  .grid-inner{
+    &:hover, &:focus{
+      background-color: $orange !important;
+    }
+  }
+}
+
+.our-team-list{
+  .views-field{
+    a{
+      &:hover, &:focus{
+        color: $orange !important;
+      }
+    }
+  }
+}
+
+.contact-info {
+  a {
+    color: $orange !important;
+  }
+}
+
+.view-page-list{
+  .views-field-title{
+    a{
+      &:hover, &:focus{
+        color: $orange;
+      }
+    }
+  }
+}
+
+/* search result */
+.search-results{
+  h3{
+    a{
+      &:hover, &:focus{
+        color: $orange;
+      }
+    }
+  }
+}
+
+/* comment */
+.comment{
+  ul.inline,
+  ul.links.inline{
+    .comment_forbidden{
+      a{
+        &:hover, &:focus{
+          color: $orange;
+        }
+      }
+    }
+  }
+}
+
+/* search */
+legend{
+  a{
+    &:hover, &:focus{
+      color: $orange;
+    }
+  }
+
+}
+
+.isotope-element{
+  a{
+    &:hover, &:focus{
+      color: $orange !important;
+    }
+  }
+}
+
+.panel-highlighted{
+  .offer-list{
+    .views-field-field-icon{
+      color: $orange;
+    }
+  }
+}
+
+.news-item{
+  .created-date{
+    background: $orange;
+  }
+}
+
+.weebpal-404-wrapper{
+  .weebpal-return-back{
+    &:hover, &:focus{
+      background-color: $orange;
+    }
+  }
+}

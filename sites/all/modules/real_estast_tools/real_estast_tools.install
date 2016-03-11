@@ -1,0 +1,23 @@
+<?php
+function real_estast_tools_install() {
+  $markers = variable_get("gmap_markerfiles");
+  $markers[] = drupal_get_path("module", "real_estast_tools") . "/markers";
+  variable_set("gmap_markerfiles", $markers);
+}
+
+function real_estast_tools_uninstall() {
+  $markers = variable_get("gmap_markerfiles");
+  foreach($markers as $key => $value) {
+    if($value === drupal_get_path("module", "real_estast_tools") . "/markers") {
+      unset($markers[$key]);
+    }
+  }
+  $new_markers = array();
+  foreach($markers as $key => $value) {
+    $new_markers[] = $value;
+  }
+  if(empty($new_markers)) {
+    $new_markers = array(drupal_get_path("module", "gmap") . "/markers");
+  }
+  variable_set("gmap_markerfiles", $new_markers);
+}

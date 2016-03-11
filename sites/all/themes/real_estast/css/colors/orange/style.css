@@ -1,0 +1,302 @@
+/* COLORS */
+/* font size */
+/* font */
+/* effect */
+/* button */
+/*color blue*/
+/* line 4, ../../../sass/colors/orange/style.scss */
+a {
+  color: #f9b256;
+}
+
+/*back to top*/
+/* line 9, ../../../sass/colors/orange/style.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background-color: #f9b256;
+}
+
+/* line 14, ../../../sass/colors/orange/style.scss */
+.form-submit {
+  background-color: #f9b256;
+}
+
+/*logo*/
+/* line 19, ../../../sass/colors/orange/style.scss */
+#logo {
+  background-color: #f9b256;
+}
+
+/*headline*/
+/* line 28, ../../../sass/colors/orange/style.scss */
+.headline ul.menu li a:hover, .headline ul.menu li a:focus {
+  color: #f9b256;
+}
+
+/*menu*/
+/* line 40, ../../../sass/colors/orange/style.scss */
+#main-menu-inner ul li.active a {
+  color: #f9b256;
+}
+/* line 45, ../../../sass/colors/orange/style.scss */
+#main-menu-inner ul li.dropdown.open .dropdown-toggle {
+  color: #f9b256;
+}
+/* line 51, ../../../sass/colors/orange/style.scss */
+#main-menu-inner ul li a:hover, #main-menu-inner ul li a:focus {
+  color: #f9b256;
+}
+/* line 57, ../../../sass/colors/orange/style.scss */
+#main-menu-inner ul li ul.tb-megamenu-subnav li a {
+  color: white;
+}
+/* line 59, ../../../sass/colors/orange/style.scss */
+#main-menu-inner ul li ul.tb-megamenu-subnav li a:hover, #main-menu-inner ul li ul.tb-megamenu-subnav li a:focus {
+  color: white;
+  background-color: #f9b256;
+}
+/* line 66, ../../../sass/colors/orange/style.scss */
+#main-menu-inner ul li ul.tb-megamenu-subnav li.active a {
+  background-color: #f9b256;
+  color: white;
+}
+
+/*slideshow*/
+/* line 78, ../../../sass/colors/orange/style.scss */
+.slideshow .views-field-field-price {
+  background-color: #f9b256;
+}
+/* line 83, ../../../sass/colors/orange/style.scss */
+.slideshow .views-field-title a:hover, .slideshow .views-field-title a:focus {
+  color: #f9b256;
+}
+/* line 90, ../../../sass/colors/orange/style.scss */
+.slideshow .views-slideshow-controls-bottom span:hover, .slideshow .views-slideshow-controls-bottom span:focus {
+  background-color: #f9b256;
+}
+/* line 97, ../../../sass/colors/orange/style.scss */
+.slideshow .flex-direction-nav a:hover, .slideshow .flex-direction-nav a:focus {
+  background-color: #f9b256;
+}
+
+/*exposed form*/
+/* line 106, ../../../sass/colors/orange/style.scss */
+.views-exposed-form .form-submit {
+  background-color: #f9b256;
+}
+
+/*properties*/
+/* line 118, ../../../sass/colors/orange/style.scss */
+.properties-grid-page .grid-inner .views-field-title a:hover, .properties-grid-page .grid-inner .views-field-title a:focus,
+.isotope-element .grid-inner .views-field-title a:hover,
+.isotope-element .grid-inner .views-field-title a:focus,
+#content .views-view-grid .grid-inner .views-field-title a:hover,
+#content .views-view-grid .grid-inner .views-field-title a:focus {
+  color: #f9b256;
+}
+/* line 127, ../../../sass/colors/orange/style.scss */
+.properties-grid-page .views-field-field-business-type .field-content a:hover, .properties-grid-page .views-field-field-business-type .field-content a:focus,
+.isotope-element .views-field-field-business-type .field-content a:hover,
+.isotope-element .views-field-field-business-type .field-content a:focus,
+#content .views-view-grid .views-field-field-business-type .field-content a:hover,
+#content .views-view-grid .views-field-field-business-type .field-content a:focus {
+  color: #f9b256 !important;
+}
+
+/* line 141, ../../../sass/colors/orange/style.scss */
+.properties-grid-page .property-image-group .property-price-group .views-field-field-price,
+.properties-list-page .property-image-group .property-price-group .views-field-field-price,
+.isotope-element .property-image-group .property-price-group .views-field-field-price {
+  background-color: #f9b256;
+}
+/* line 148, ../../../sass/colors/orange/style.scss */
+.properties-grid-page .views-field-title a:hover, .properties-grid-page .views-field-title a:focus,
+.properties-list-page .views-field-title a:hover,
+.properties-list-page .views-field-title a:focus,
+.isotope-element .views-field-title a:hover,
+.isotope-element .views-field-title a:focus {
+  color: #f9b256 !important;
+}
+
+/* line 160, ../../../sass/colors/orange/style.scss */
+.properties-list-page .views-field-field-business-type .views-label a:hover, .properties-list-page .views-field-field-business-type .views-label a:focus,
+.properties-list-page .views-field-field-business-type .field-content a:hover,
+.properties-list-page .views-field-field-business-type .field-content a:focus {
+  color: #f9b256 !important;
+}
+
+/*agent*/
+/* line 174, ../../../sass/colors/orange/style.scss */
+.agent-type .views-field-field-full-name a:hover, .agent-type .views-field-field-full-name a:focus,
+.agent-type .field-name-field-full-name a:hover,
+.agent-type .field-name-field-full-name a:focus,
+.profile .views-field-field-full-name a:hover,
+.profile .views-field-field-full-name a:focus,
+.profile .field-name-field-full-name a:hover,
+.profile .field-name-field-full-name a:focus {
+  color: #f9b256;
+}
+
+/*testimonial*/
+/* line 185, ../../../sass/colors/orange/style.scss */
+.testimonials .views-field-field-occupation a:hover, .testimonials .views-field-field-occupation a:focus {
+  color: #f9b256;
+}
+
+/*panel footer*/
+/* line 195, ../../../sass/colors/orange/style.scss */
+#panel-footer a:hover, #panel-footer a:focus {
+  color: #f9b256;
+}
+
+/*content*/
+/* line 207, ../../../sass/colors/orange/style.scss */
+#main #content .submitted a:hover, #main #content .submitted a:focus,
+#main #content .comment-links a:hover,
+#main #content .comment-links a:focus {
+  color: #f9b256;
+}
+/* line 214, ../../../sass/colors/orange/style.scss */
+#main #content .node .group-price .field-name-field-price {
+  background-color: #f9b256;
+}
+/* line 220, ../../../sass/colors/orange/style.scss */
+#main #content .node h2 a:hover, #main #content .node h2 a:focus {
+  color: #f9b256;
+}
+/* line 227, ../../../sass/colors/orange/style.scss */
+#main #content .created-date {
+  background-color: #f9b256;
+}
+
+/*sidebar*/
+/* line 238, ../../../sass/colors/orange/style.scss */
+.sidebar .views-row .views-field-title a:hover, .sidebar .views-row .views-field-title a:focus {
+  color: #f9b256;
+}
+/* line 247, ../../../sass/colors/orange/style.scss */
+.sidebar #search-block-form .form-actions:hover:before {
+  color: #f9b256;
+}
+/* line 257, ../../../sass/colors/orange/style.scss */
+.sidebar .item-list ul li a:hover, .sidebar .item-list ul li a:focus {
+  color: #f9b256;
+}
+/* line 269, ../../../sass/colors/orange/style.scss */
+.sidebar .quicktabs-wrapper .item-list .quicktabs-tabs li a:hover {
+  color: #f9b256;
+}
+/* line 275, ../../../sass/colors/orange/style.scss */
+.sidebar .quicktabs-wrapper .item-list .quicktabs-tabs .active a {
+  background-color: #f9b256;
+}
+/* line 277, ../../../sass/colors/orange/style.scss */
+.sidebar .quicktabs-wrapper .item-list .quicktabs-tabs .active a:before {
+  border-color: #f9b256 transparent transparent transparent;
+}
+/* line 280, ../../../sass/colors/orange/style.scss */
+.sidebar .quicktabs-wrapper .item-list .quicktabs-tabs .active a:hover, .sidebar .quicktabs-wrapper .item-list .quicktabs-tabs .active a:focus {
+  color: white;
+}
+
+/*page contact*/
+/* line 293, ../../../sass/colors/orange/style.scss */
+.contact-content a:hover, .contact-content a:focus {
+  color: #f9b256;
+}
+
+/* line 300, ../../../sass/colors/orange/style.scss */
+div.modal-forms-modal-content .modal-header {
+  background: #f9b256;
+}
+/* line 303, ../../../sass/colors/orange/style.scss */
+div.modal-forms-modal-content .close {
+  background: rgba(249, 178, 86, 0.9);
+}
+/* line 310, ../../../sass/colors/orange/style.scss */
+div.modal-forms-modal-content form .item-list li a:hover, div.modal-forms-modal-content form .item-list li a:focus {
+  color: #f9b256;
+}
+/* line 317, ../../../sass/colors/orange/style.scss */
+div.modal-forms-modal-content form .form-submit:hover, div.modal-forms-modal-content form .form-submit:focus {
+  background-color: #f9b256;
+}
+
+/*.breadcrumb*/
+/* line 327, ../../../sass/colors/orange/style.scss */
+.breadcrumb a:hover, .breadcrumb a:focus {
+  color: #f9b256;
+}
+
+/* line 336, ../../../sass/colors/orange/style.scss */
+.logged-in #subscribe .form-submit:hover, .logged-in #subscribe .form-submit:focus {
+  color: #f9b256;
+}
+
+/* line 346, ../../../sass/colors/orange/style.scss */
+.comment h3 a:hover, .comment h3 a:focus {
+  color: #f9b256;
+}
+
+/* line 355, ../../../sass/colors/orange/style.scss */
+.offer-list .views-field-title a {
+  color: #f9b256 !important;
+}
+/* line 360, ../../../sass/colors/orange/style.scss */
+.offer-list .grid-inner:hover, .offer-list .grid-inner:focus {
+  background-color: #f9b256 !important;
+}
+
+/* line 369, ../../../sass/colors/orange/style.scss */
+.our-team-list .views-field a:hover, .our-team-list .views-field a:focus {
+  color: #f9b256 !important;
+}
+
+/* line 377, ../../../sass/colors/orange/style.scss */
+.contact-info a {
+  color: #f9b256 !important;
+}
+
+/* line 385, ../../../sass/colors/orange/style.scss */
+.view-page-list .views-field-title a:hover, .view-page-list .views-field-title a:focus {
+  color: #f9b256;
+}
+
+/* search result */
+/* line 396, ../../../sass/colors/orange/style.scss */
+.search-results h3 a:hover, .search-results h3 a:focus {
+  color: #f9b256;
+}
+
+/* comment */
+/* line 409, ../../../sass/colors/orange/style.scss */
+.comment ul.inline .comment_forbidden a:hover, .comment ul.inline .comment_forbidden a:focus,
+.comment ul.links.inline .comment_forbidden a:hover,
+.comment ul.links.inline .comment_forbidden a:focus {
+  color: #f9b256;
+}
+
+/* search */
+/* line 420, ../../../sass/colors/orange/style.scss */
+legend a:hover, legend a:focus {
+  color: #f9b256;
+}
+
+/* line 429, ../../../sass/colors/orange/style.scss */
+.isotope-element a:hover, .isotope-element a:focus {
+  color: #f9b256 !important;
+}
+
+/* line 437, ../../../sass/colors/orange/style.scss */
+.panel-highlighted .offer-list .views-field-field-icon {
+  color: #f9b256;
+}
+
+/* line 444, ../../../sass/colors/orange/style.scss */
+.news-item .created-date {
+  background: #f9b256;
+}
+
+/* line 451, ../../../sass/colors/orange/style.scss */
+.weebpal-404-wrapper .weebpal-return-back:hover, .weebpal-404-wrapper .weebpal-return-back:focus {
+  background-color: #f9b256;
+}

@@ -1,0 +1,13 @@
+<?php
+include_once drupal_get_path('module', 'weebpal_tools') . '/weebpal_tools.functions.inc';
+
+function weebpal_tools_menu() {
+  $items['admin/structure/weebpal-tools/load-font'] = array(
+    'title' => 'Request',
+    'page callback' => 'weebpal_tools_load_font',
+    'access arguments' => array('administer weebpal_tools'),
+    'type' => MENU_SUGGESTED_ITEM,
+    'file' => 'weebpal_tools.ajax.inc',
+  );    
+  return $items;
+}

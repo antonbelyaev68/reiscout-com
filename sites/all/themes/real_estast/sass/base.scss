@@ -1,0 +1,45 @@
+@import "includes/_include";
+
+.views-view-grid .views-col {
+	float: left;
+}
+.views-view-grid.cols-1 .views-col {
+	width: 100%;
+}
+.views-view-grid.cols-2 .views-col {
+	width: 50%;
+}
+.views-view-grid.cols-3 .views-col {
+	width: 33.33%;
+}
+.views-view-grid.cols-4 .views-col {
+	width: 25%;
+}
+.views-view-grid.cols-5 .views-col {
+	width: 20%;
+}
+
+/* maintenance page */
+.maintenance-page {
+	background: #e6e6e6;
+}
+.maintenance-page #page {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0 0 0;
+	text-align: center;
+}
+.maintenance-page #header {
+	overflow: hidden;
+}
+.maintenance-page #logo {
+	float: none;
+	margin: 0 0 10px;
+	width: 100% !important;
+}
+.maintenance-page #name-and-slogan {
+	float: none;
+}
+.maintenance-page #container {
+	padding: 40px 0 0 0;
+}
